@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+i{
+  cursor: pointer;
+}
+
+#nav{
+  height: 60px;
+}
+
+#btn{
+  position: relative;
+  bottom: 0;
+  margin: 10px;
+  padding: 7.5px;
+  text-decoration: none;
+  color: white;
+}
+
+#btn:hover{
+  bottom: .2em;
+  transition: bottom 0.2s ease;
+  border-bottom: 3px solid white;
+}
